@@ -1,1 +1,0 @@
-# Self-practice-INT151-Sakdinun
