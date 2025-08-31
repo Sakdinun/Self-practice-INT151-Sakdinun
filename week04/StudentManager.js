@@ -73,6 +73,4 @@ const s6 = new StudentManager("006","Aniga","KFC");
 console.log(StudentManager.findStudentWithLetterA())
 
 // console.log(s3.removeStudent())
-
-// console.log(StudentManager.listAll());
  
