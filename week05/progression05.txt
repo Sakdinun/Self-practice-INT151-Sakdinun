@@ -1,0 +1,22 @@
+# 67130500039
+## Sakdinan Tankhammun
+### Week05 - Self practice
+
+📄 รายละเอียดโจทย์: Functional_Data_Pipeline
+สิ่งที่ฟังก์ชัน createInvoice ต้องทำคือ เปลี่ยน order ให้เป็นรูปแบบนี้
+{
+  id,             // order id
+  subtotal,       // sum of qty * price (before discounts)
+  totalDiscount,  // how much discount in money
+  vat,            // VAT applied after discount
+  total           // final payable amount
+}
+
+โจทย์นี้ใช้ความรู้
+-   JavaScript Array methods: map, reduce, filter
+-   Object manipulation: การเข้าถึงและสร้าง object
+-   Functional programming concepts: การใช้ reduce ในการรวมค่า
+-   พื้นฐานคณิตศาสตร์การคำนวณ: การหาส่วนลด, ภาษี, ยอดรวม
+-   Conditional matching: การตรวจสอบเงื่อนไข (sku/country)
+    เพื่อเลือกโปรโมชั่นที่ใช้ได้
+
